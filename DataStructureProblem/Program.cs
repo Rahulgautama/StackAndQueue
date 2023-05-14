@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DataStructureProblem
 {
@@ -6,12 +7,16 @@ namespace DataStructureProblem
     {
         static void Main(string[] args)
         {
-            LinkedList linkedList = new LinkedList();
-            linkedList.Add(56);
-            linkedList.Add(30);
-            linkedList.Add(70);
+            
+            LinkedList<int> linkedList = new LinkedList<int>();
+            linkedList.AddFirst(56);
+            linkedList.AddFirst(30);
+            linkedList.AddFirst(70);
 
-            linkedList.Display();
+            foreach (var dataList in linkedList)
+            {
+                Console.WriteLine(dataList);
+            }
 
         }
     }
