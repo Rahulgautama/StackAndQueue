@@ -1,0 +1,11 @@
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.exe
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.deps.json
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.runtimeconfig.json
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.runtimeconfig.dev.json
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.dll
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\bin\Debug\netcoreapp3.1\DataStructureProblem.pdb
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\obj\Debug\netcoreapp3.1\DataStructureProblem.csprojAssemblyReference.cache
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\obj\Debug\netcoreapp3.1\DataStructureProblem.AssemblyInfoInputs.cache
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\obj\Debug\netcoreapp3.1\DataStructureProblem.AssemblyInfo.cs
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\obj\Debug\netcoreapp3.1\DataStructureProblem.dll
+D:\DLS-RFP-278\Project\DataStructureProblem\DataStructureProblem\obj\Debug\netcoreapp3.1\DataStructureProblem.pdb
