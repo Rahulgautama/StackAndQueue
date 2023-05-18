@@ -47,6 +47,19 @@ namespace DataStructureProblem
             }
             Console.WriteLine("{0} Inserted into Linked List ", node.data);
         }
+
+        public void AddAfter(int data,int where)
+        {
+            Node node = new Node(data);
+
+            Node temp = head;
+            while (temp.data!=where)
+            {
+                temp = temp.next;
+            }
+            node.next = temp.next;
+            temp.next = node;
+        }
         public void Display()
         {
             Node temp = this.head;
