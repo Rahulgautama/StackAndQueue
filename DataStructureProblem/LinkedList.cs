@@ -60,6 +60,12 @@ namespace DataStructureProblem
             node.next = temp.next;
             temp.next = node;
         }
+
+        public void DeleteFirst()
+        {
+            Node secondNode = head.next;
+            head = secondNode;
+        }
         public void Display()
         {
             Node temp = this.head;

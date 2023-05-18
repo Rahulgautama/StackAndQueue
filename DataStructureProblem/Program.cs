@@ -17,6 +17,8 @@ namespace DataStructureProblem
             linkedList.Append(linkedList,70);
 
             linkedList.AddAfter(30,56);
+
+            linkedList.DeleteFirst();
             linkedList.Display();
 
         }
