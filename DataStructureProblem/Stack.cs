@@ -12,7 +12,11 @@ namespace DataStructureProblem
         {
             stack.AddToLast(data);
         }
-        
+        public void Pop()
+        {
+            stack.DeleteLast();
+        }
+       
         public void Display()
         {
             stack.Display();

@@ -35,7 +35,7 @@ namespace DataStructureProblem
             stack.Push(23);
             stack.Push(31);
             stack.Push(33);
-            
+            stack.Pop();
             stack.Display();
 
         }
