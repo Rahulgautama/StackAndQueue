@@ -86,6 +86,21 @@ namespace DataStructureProblem
             
             second_last.next = null;
         }
+        public void AddToLast(int data)
+        {
+            Node node = new Node(data);
+            if (head == null)
+            {
+                head = node;
+                return;
+            }
+            Node temp = head;
+            while (temp.next!=null)
+            {
+                temp = temp.next;
+            }
+            temp.next = node;
+        }
         public void Delete(int data)
         {
             Node previousNode = head;
