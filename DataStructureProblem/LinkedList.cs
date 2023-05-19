@@ -66,6 +66,26 @@ namespace DataStructureProblem
             Node secondNode = head.next;
             head = secondNode;
         }
+        public bool Search(int data)
+        {
+            Node current = head; 
+            while (current != null)
+            {
+                if (current.data == data)
+                    return true; 
+                current = current.next;
+            }
+            return false; 
+        }
+
+        public void DeleteLast()
+        {            
+            Node second_last = head;
+            while (second_last.next.next != null)
+                second_last = second_last.next;
+            
+            second_last.next = null;
+        }
         public void Display()
         {
             Node temp = this.head;
