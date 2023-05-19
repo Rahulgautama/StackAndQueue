@@ -18,6 +18,8 @@ namespace DataStructureProblem
 
             linkedList.AddAfter(30,56);
 
+            linkedList.AddAfter(40, 30);
+
             //linkedList.DeleteFirst();
             //linkedList.DeleteLast();
             Console.WriteLine(linkedList.Search(56));
