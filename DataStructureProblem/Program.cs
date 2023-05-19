@@ -7,7 +7,7 @@ namespace DataStructureProblem
     {
         static void Main(string[] args)
         {
-            Stack stack = new Stack();
+            //Stack stack = new Stack();
             //linkedList.Add(56);
             // linkedList.Add(30);
             //linkedList.Add(70);
@@ -32,11 +32,19 @@ namespace DataStructureProblem
             //linkedList.DeleteFirst();
             //linkedList.DeleteLast();
             //Console.WriteLine(linkedList.Search(56));
-            stack.Push(23);
-            stack.Push(31);
-            stack.Push(33);
-            stack.Pop();
-            stack.Display();
+            //stack.Push(23);
+            //stack.Push(31);
+            //stack.Push(33);
+            //stack.Pop();
+            //stack.Display();
+
+            Queue queue = new Queue();
+            queue.Enqueue(12);
+            queue.Enqueue(20);
+            queue.Enqueue(15);
+            
+
+            queue.Displaye();
 
         }
        
