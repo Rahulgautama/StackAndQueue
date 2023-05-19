@@ -86,6 +86,17 @@ namespace DataStructureProblem
             
             second_last.next = null;
         }
+        public void Delete(int data)
+        {
+            Node previousNode = head;
+            Node current = head.next;
+            while (current.data!=data)
+            {
+                previousNode = current;
+                current = current.next;
+            }
+            previousNode.next = current.next;
+        }
         public void Display()
         {
             Node temp = this.head;

@@ -20,6 +20,7 @@ namespace DataStructureProblem
 
             linkedList.AddAfter(40, 30);
 
+            linkedList.Delete(40);
             //linkedList.DeleteFirst();
             //linkedList.DeleteLast();
             Console.WriteLine(linkedList.Search(56));
