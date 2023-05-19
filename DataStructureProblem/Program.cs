@@ -42,7 +42,7 @@ namespace DataStructureProblem
             queue.Enqueue(12);
             queue.Enqueue(20);
             queue.Enqueue(15);
-            
+            queue.Dequeue();
 
             queue.Displaye();
 

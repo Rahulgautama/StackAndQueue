@@ -12,7 +12,10 @@ namespace DataStructureProblem
         {
             queue.AddToLast(data);
         }
-        
+        public void Dequeue()
+        {
+            queue.DeleteFirst();
+        }
         public void Displaye()
         {
             queue.Display();
