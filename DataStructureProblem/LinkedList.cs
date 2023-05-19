@@ -97,6 +97,39 @@ namespace DataStructureProblem
             }
             previousNode.next = current.next;
         }
+        public void SortedInsert(Node newNode)
+        {
+             
+            if (this.head == null)
+            {
+                this.head = newNode;
+                return;
+            }
+
+            Node prev = null;
+            Node current = this.head;
+            while (current != null && current.data < newNode.data)
+            {
+                prev = current;
+                current = current.next;
+            }
+
+            if (prev == null)
+            {
+                newNode.next = this.head;
+                this.head = newNode;
+            }
+            else
+            {
+                newNode.next = current;
+                prev.next = newNode;
+            }
+        }
+        public Node NewNode(int data)
+        {
+            Node x = new Node(data);
+            return x;
+        }
         public void Display()
         {
             Node temp = this.head;
